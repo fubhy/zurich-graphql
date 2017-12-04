@@ -1,0 +1,10 @@
+.PeopleOverview--Wrapper {
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.PeopleOverview--LoadMore {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}

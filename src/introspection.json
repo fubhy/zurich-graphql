@@ -1,0 +1,355 @@
+{
+  "__schema": {
+    "types": [
+      {
+        "kind": "OBJECT",
+        "name": "Root",
+        "possibleTypes": null
+      },
+      {
+        "kind": "SCALAR",
+        "name": "String",
+        "possibleTypes": null
+      },
+      {
+        "kind": "SCALAR",
+        "name": "Int",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "FilmsConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PageInfo",
+        "possibleTypes": null
+      },
+      {
+        "kind": "SCALAR",
+        "name": "Boolean",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "FilmsEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "Film",
+        "possibleTypes": null
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "Node",
+        "possibleTypes": [
+          {
+            "name": "Film"
+          },
+          {
+            "name": "Species"
+          },
+          {
+            "name": "Planet"
+          },
+          {
+            "name": "Person"
+          },
+          {
+            "name": "Starship"
+          },
+          {
+            "name": "Vehicle"
+          }
+        ]
+      },
+      {
+        "kind": "SCALAR",
+        "name": "ID",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "FilmSpeciesConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "FilmSpeciesEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "Species",
+        "possibleTypes": null
+      },
+      {
+        "kind": "SCALAR",
+        "name": "Float",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "Planet",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PlanetResidentsConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PlanetResidentsEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "Person",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PersonFilmsConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PersonFilmsEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PersonStarshipsConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PersonStarshipsEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "Starship",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "StarshipPilotsConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "StarshipPilotsEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "StarshipFilmsConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "StarshipFilmsEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PersonVehiclesConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PersonVehiclesEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "Vehicle",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "VehiclePilotsConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "VehiclePilotsEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "VehicleFilmsConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "VehicleFilmsEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PlanetFilmsConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PlanetFilmsEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "SpeciesPeopleConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "SpeciesPeopleEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "SpeciesFilmsConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "SpeciesFilmsEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "FilmStarshipsConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "FilmStarshipsEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "FilmVehiclesConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "FilmVehiclesEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "FilmCharactersConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "FilmCharactersEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "FilmPlanetsConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "FilmPlanetsEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PeopleConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PeopleEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PlanetsConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "PlanetsEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "SpeciesConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "SpeciesEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "StarshipsConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "StarshipsEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "VehiclesConnection",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "VehiclesEdge",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "__Schema",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "__Type",
+        "possibleTypes": null
+      },
+      {
+        "kind": "ENUM",
+        "name": "__TypeKind",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "__Field",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "__InputValue",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "__EnumValue",
+        "possibleTypes": null
+      },
+      {
+        "kind": "OBJECT",
+        "name": "__Directive",
+        "possibleTypes": null
+      },
+      {
+        "kind": "ENUM",
+        "name": "__DirectiveLocation",
+        "possibleTypes": null
+      }
+    ]
+  }
+}
